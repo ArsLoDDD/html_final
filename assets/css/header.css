@@ -1,57 +1,56 @@
-.row{
-    justify-content: space-between;
+.row {
+  justify-content: space-between;
 }
-.header{
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    background-color: var(--elements-clr);
-    color: var(--white-clr);
-    border-radius: 7px;
+.header {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: var(--elements-clr);
+  color: var(--white-clr);
+  border-radius: 7px;
 }
-.logo{
-    margin: auto 0;
-    padding-left: 5rem;
+.logo {
+  margin: auto 0;
+  padding-left: 5rem;
 }
 
-.header-info{
-    padding-top: 0.7rem;
-    text-align: right;
+.header-info {
+  padding-top: 0.7rem;
+  text-align: right;
 }
-.header-button{
-    padding: 0 2.5rem;
-    background-color: var(--elements-clr);
-    color: var(--white-clr);
-    border: 2.8px solid white;
-    border-radius: 7px;
+.header-button {
+  padding: 0 2.5rem;
+  background-color: var(--elements-clr);
+  color: var(--white-clr);
+  border: 2.8px solid white;
+  border-radius: 7px;
 }
-.sign{
-    display: flex;
-    flex-direction: column;
-
+.sign {
+  display: flex;
+  flex-direction: column;
 }
-.sign-icon{
-    display: block;
-    margin: 0 auto;
+.sign-icon {
+  display: block;
+  margin: 0 auto;
 }
 .logo,
-.phone{
-    font-size: 1.7rem;
-    font-family: 'Mulish', sans-serif;
+.phone {
+  font-size: 1.7rem;
+  font-family: "Mulish", sans-serif;
 }
 .header-info,
 .header-button,
-.sing-in{
-    font-size: 1.2rem;
-    font-family: 'Mulish', sans-serif;
-    font-style: italic;
+.sign-in {
+  font-size: 1.2rem;
+  font-family: "Mulish", sans-serif;
+  font-style: italic;
 }
 .header-button,
-.sing-in{
-    font-size: 1.1rem;
-    text-transform: uppercase;
+.sign-in {
+  font-size: 1.1rem;
+  text-transform: uppercase;
 }
-.header-button:hover{
-    background-color: var(--white-clr);
-    color: var(--elements-clr);
-    transition-duration: 0.4s;
+.header-button:hover {
+  background-color: var(--white-clr);
+  color: var(--elements-clr);
+  transition-duration: 0.4s;
 }

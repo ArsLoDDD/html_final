@@ -1,0 +1,54 @@
+body {
+  height: 100%;
+}
+footer {
+  width: 100%;
+  background-color: var(--footer-bg-clr);
+  color: var(--gray-clr);
+  padding-top: 2rem;
+}
+
+ul {
+  flex-wrap: wrap;
+  column-count: 3;
+}
+ul,
+.footer-info,
+span {
+  color: var(--white-clr);
+}
+li:nth-child(2n),
+.footer-icon-img {
+  padding-top: 2rem;
+}
+.social-img{
+    cursor: pointer;
+}
+.instagram {
+  padding-left: 1rem;
+}
+.list-link-item {
+  font-size: 1.1rem;
+  font-family: "Mulish", sans-serif;
+  text-transform: uppercase;
+}
+.right-footer {
+  display: flex;
+  flex-direction: column;
+  font-family: Mulish;
+  font-style: italic;
+}
+.footer-info {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  margin: 0 auto;
+}
+
+.footer-message {
+  padding-top: 1rem;
+}
+.confid,
+.footer-info {
+  font-family: Mulish;
+  font-style: medium;
+}
