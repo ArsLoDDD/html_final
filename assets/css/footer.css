@@ -9,7 +9,7 @@ footer {
 }
 
 ul {
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   column-count: 3;
 }
 ul,
@@ -21,8 +21,8 @@ li:nth-child(2n),
 .footer-icon-img {
   padding-top: 2rem;
 }
-.social-img{
-    cursor: pointer;
+.social-img {
+  cursor: pointer;
 }
 .instagram {
   padding-left: 1rem;
@@ -32,7 +32,7 @@ li:nth-child(2n),
   font-family: "Mulish", sans-serif;
   text-transform: uppercase;
 }
-.right-footer {
+.right-footer-wrapper {
   display: flex;
   flex-direction: column;
   font-family: Mulish;
@@ -51,4 +51,105 @@ li:nth-child(2n),
 .footer-info {
   font-family: Mulish;
   font-style: medium;
+}
+.confid-min,
+.footer-img-min {
+  display: none;
+}
+
+/* ---------MEDIA----------- */
+@media (min-width: 1920px) {
+  .right-footer-wrapper{
+    margin-left: 10rem;
+  }
+  .midl-footer{
+   padding-left: 8rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1919px) {
+  li:nth-child(1n) {
+    padding: 0.6rem 0;
+    max-width: 7.5rem;
+  }
+  .list-link-item > span {
+    white-space: nowrap;
+  }
+  .right-footer-wrapper{
+    padding-left: 3rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .midl-footer,
+  .left-footer,
+  .right-footer-wrapper,
+  .right-footer {
+    padding: 0;
+  }
+footer{
+  flex-wrap: nowrap;
+}
+  ul {
+    
+    padding-left: 0.4rem;
+    column-count: 2;
+  }
+  li {
+    display: flex;
+    flex-direction: column;
+  }
+  li:nth-child(1n) {
+    padding: 0.6rem 0;
+    max-width: 7.5rem;
+  }
+  
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  ul {
+    flex-wrap: wrap;
+    column-count: 2;
+  }
+  .list-link-item {
+    font-size: 0.8rem;
+  }
+  li:nth-child(1n) {
+    padding: 0.6rem 0;
+  }
+  .list-link-item > span {
+    white-space: nowrap;
+  }
+  .footer-info,
+  .confid-min {
+    font-size: 0.7rem;
+  }
+  .confid {
+    display: none;
+  }
+  .confid-min {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    font-family: Mulish;
+    font-style: medium;
+  }
+  .img-footer {
+    font-size: 0.8rem;
+  }
+  .footer-message {
+    font-size: 0.7rem;
+  }
+  .footer-icon-img {
+    display: none;
+  }
+  .footer-img-min {
+    display: inline-block;
+  }
+  .right-footer-wrapper {
+    padding-left: 0;
+  }
+  .right-footer {
+    flex-wrap: nowrap;
+    padding-top: 2rem;
+  }
 }

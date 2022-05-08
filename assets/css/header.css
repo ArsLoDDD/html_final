@@ -11,6 +11,8 @@
 .logo {
   margin: auto 0;
   padding-left: 5rem;
+  font-size: 2.5rem;
+  font-style: bold;
 }
 
 .header-info {
@@ -32,9 +34,11 @@
   display: block;
   margin: 0 auto;
 }
-.logo,
 .phone {
   font-size: 1.7rem;
+}
+.logo,
+.phone {
   font-family: "Mulish", sans-serif;
 }
 .header-info,
@@ -53,4 +57,30 @@
   background-color: var(--white-clr);
   color: var(--elements-clr);
   transition-duration: 0.4s;
+}
+.wrapper-burger {
+  display: none;
+}
+@media (max-width: 320px) {
+  .logo {
+    padding-left: 1rem;
+    font-size: 1rem;
+  }
+  .wrapper-burger {
+    padding-right: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-name {
+    display: none;
+  }
+  .wrapper-burger {
+    display: block;
+    margin: auto 0;
+  }
+  .logo {
+    padding-left: 1rem;
+    font-size: 1.4rem;
+  }
 }

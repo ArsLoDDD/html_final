@@ -5,30 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
     <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,200&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/grid.css" />
     <link rel="stylesheet" href="./assets/css/header.css" />
     <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="./assets/css/reviews.css" />
+    <link rel="stylesheet" href="./assets/css/fonts.css" />
   </head>
   <body>
     <div class="main-container">
       <header class="container header">
         <div class="row">
-          <a href="" class="col-xxl-4 logo">Классика права</a>
-          <div class="col-xxl-8 header-name row">
+          <a href="" class="col-xxxl-10 logo">Классика права</a>
+          <div class="wrapper-burger col-2">
+            <img src="./images/icon/header-burger.png" alt="" />
+          </div>
+          <div class="col-xxxl-7 header-name row">
             <div class="number">
               <a href="" class="phone">
                 <img src="./images/icon/phone.png" alt="" /> +38 (000)
@@ -48,15 +42,94 @@
           </div>
         </div>
       </header>
-      <main></main>
+      <div class="nav-menu"></div>
+
+      <div class="online-question"></div>
+
+      <div class="for-business"></div>
+
+      <div class="our-advantages"></div>
+
+      <div class="consultation"></div>
+
+      <div class="reviews">
+        <div class="container reviews-container">
+          <div class="reviews-info">
+            <h2 class="reviews-heading">Отзывы</h2>
+            <p class="reviews-p">
+              За долгое время работы, мы собрали десятки отзывов, которые
+              помогут свормировать мнение о нашей работе 
+            </p>
+          </div>
+          <div class="users-reviews-box row">
+            <section class="users-reviews col-sm-6">
+              <div class="user-stars">
+                <img src="./images/icon/Star.png" alt="" class="star" />
+                <img src="./images/icon/Star.png" alt="" class="star" />
+                <img src="./images/icon/Star.png" alt="" class="star" />
+                <img src="./images/icon/Star.png" alt="" class="star" />
+                <img src="./images/icon/Star.png" alt="" class="star" />
+              </div>
+              <div class="users-reviews-items">
+                <p>
+                  В результате действий команды юристов удалось взыскать
+                  задолженость в размере 7 045 515 гривен.
+                </p>
+                <div class="user-box-wrapper row">
+                  <div class="user-box row">
+                    <img src="./images/icon/user.png" alt="" />
+                    <div class="user-name row">
+                      <p>Алексей.К.В</p>
+                      <p>ООО “Энергон”</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="users-reviews col-sm-6 clone-user-box">
+              <div class="user-stars">
+                <img src="./images/icon/Star.png" alt="" class="star" />
+                <img src="./images/icon/Star.png" alt="" class="star" />
+                <img src="./images/icon/Star.png" alt="" class="star" />
+                <img src="./images/icon/Star.png" alt="" class="star" />
+                <img src="./images/icon/Star.png" alt="" class="star" />
+              </div>
+              <div class="users-reviews-items">
+                <p>
+                  В результате действий команды юристов удалось взыскать
+                  задолженость в размере 7 045 515 гривен.
+                </p>
+                <div class="user-box-wrapper row">
+                  <div class="user-box row">
+                    <img src="./images/icon/user.png" alt="" />
+                    <div class="user-name row">
+                      <p>Алексей.К.В</p>
+                      <p>ООО “Энергон”</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+
+      <div class="pre-footer-nav"></div>
 
       <footer>
         <div class="container footer row">
           <div class="left-footer col-xxl-3">
             <p class="confid">2021 Все права защищены</p>
             <div class="footer-icon-img">
-              <a href=""><img class="social-img" src="./images/icon/youtube.png" alt="" /></a>
-              <a href=""><img class="social-img instagram" src="./images/icon/instagram.png" alt="" /></a> 
+              <a href=""
+                ><img class="social-img" src="./images/icon/youtube-min.png" alt=""
+              /></a>
+              <a href=""
+                ><img
+                  class="social-img instagram"
+                  src="./images/icon/instagram-min.png"
+                  alt=""
+              /></a>
             </div>
           </div>
           <div class="midl-footer col-xxl-6">
@@ -65,41 +138,57 @@
                 <a href="" class="list-link-item">каталог</a>
               </li>
               <li class="list-item">
-                <a href="" class="list-link-item">Прайс лист</a>
+                <a href="" class="list-link-item ">Прайс лист</a>
               </li>
-              <li class="list-item">
+              <li class="list-item"> 
                 <a href="" class="list-link-item">Услуги</a>
               </li>
               <li class="list-item">
                 <a href="" class="list-link-item">Компания</a>
               </li>
               <li class="list-item">
-                <a href="" class="list-link-item">Вопросы и ответы</a>
+                <a href="" class="list-link-item"
+                  ><span>Вопросы и ответы</span>
+                </a>
               </li>
               <li class="list-item">
                 <a href="" class="list-link-item">Контакты</a>
               </li>
             </ul>
           </div>
-          <div class="right-footer col-xxl-3">
-            <a href="" class="footer-phone"
-              ><img
-                src="./images/icon/phone-footer.png"
-                alt=""
-                class="img-footer"
-              />
-              + 38 (000) <span>000-00-00</span>
-            </a>
-            <a href="" class="footer-message">
-              <img
-                src="./images/icon/message-footer.png"
-                alt=""
-                class="img-footer"
-              />
-              info@classica-prava</a
-            >
+          <div class="right-footer col-xxl-3 row">
+            <div class="right-footer-wrapper">
+              <a href="" class="footer-phone"
+                ><img
+                  src="./images/icon/phone-footer.png"
+                  alt=""
+                  class="img-footer"
+                />
+                + 38 (000) <span>000-00-00</span>
+              </a>
+              <a href="" class="footer-message">
+                <img
+                  src="./images/icon/message-footer.png"
+                  alt=""
+                  class="img-footer"
+                />
+                info@classica-prava</a
+              >
+            </div>
+            <div class="footer-img-min">
+              <a href=""
+                ><img class="social-img-min" src="./images/icon/youtube-min.png" alt=""
+              /></a>
+              <a href=""
+                ><img
+                  class="social-img-min"
+                  src="./images/icon/instagram-min.png"
+                  alt=""
+              /></a>
+            </div>
           </div>
           <p class="footer-info">Г. Киев ООО “Классика Права”</p>
+          <p class="confid-min">2021 Все права защищены</p>
         </div>
       </footer>
     </div>

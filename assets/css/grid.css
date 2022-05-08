@@ -412,68 +412,68 @@ xxl: 1400px */
     max-width: var(--column-width);
   }
 }
-/* @media screen and (min-width: 1920px){
+@media screen and (min-width: 1920px){
   .container {
     width: 	1660px;
   }
-  .col-xxl-1 {
+  .col-xxxl-1 {
     --column-width: calc(100% / var(--count-column) * 1);
     flex-basis: var(--column-width);
     max-width: var(--column-width);
   }
-  .col-xxl-2 {
+  .col-xxxl-2 {
     --column-width: calc(100% / var(--count-column) * 2);
     flex-basis: var(--column-width);
     max-width: var(--column-width);
   }
-  .col-xxl-3 {
+  .col-xxxl-3 {
     --column-width: calc(100% / var(--count-column) * 3);
     flex-basis: var(--column-width);
     max-width: var(--column-width);
   }
-  .col-xxl-4 {
+  .col-xxxl-4 {
     --column-width: calc(100% / var(--count-column) * 4);
     flex-basis: var(--column-width);
     max-width: var(--column-width);
   }
-  .col-xxl-5 {
+  .col-xxxl-5 {
     --column-width: calc(100% / var(--count-column) * 5);
     flex-basis: var(--column-width);
     max-width: var(--column-width);
   }
-  .col-xxl-6 {
+  .col-xxxl-6 {
     --column-width: calc(100% / var(--count-column) * 6);
     flex-basis: var(--column-width);
     max-width: var(--column-width);
   }
-  .col-xxl-7 {
+  .col-xxxl-7 {
     --column-width: calc(100% / var(--count-column) * 7);
     flex-basis: var(--column-width);
     max-width: var(--column-width);
   }
-  .col-xxl-8 {
+  .col-xxxl-8 {
     --column-width: calc(100% / var(--count-column) * 8);
     flex-basis: var(--column-width);
     max-width: var(--column-width);
   }
-  .col-xxl-9 {
+  .col-xxxl-9 {
     --column-width: calc(100% / var(--count-column) * 9);
     flex-basis: var(--column-width);
     max-width: var(--column-width);
   }
-  .col-xxl-10 {
+  .col-xxxl-10 {
     --column-width: calc(100% / var(--count-column) * 10);
     flex-basis: var(--column-width);
     max-width: var(--column-width);
   }
-  .col-xxl-11 {
+  .col-xxxl-11 {
     --column-width: calc(100% / var(--count-column) * 11);
     flex-basis: var(--column-width);
     max-width: var(--column-width);
   }
-  .col-xxl-12 {
+  .col-xxxl-12 {
     --column-width: calc(100% / var(--count-column) * 12);
     flex-basis: var(--column-width);
     max-width: var(--column-width);
   }
-} */
+}
