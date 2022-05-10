@@ -61,17 +61,56 @@
 .wrapper-burger {
   display: none;
 }
-@media (max-width: 320px) {
-  .logo {
-    padding-left: 1rem;
-    font-size: 1rem;
-  }
-  .wrapper-burger {
-    padding-right: 3rem;
-  }
+
+/* ---------MEDIA----------- */
+
+@media (min-width: 1920px){
+
+
 }
 
-@media (max-width: 768px) {
+@media (min-width: 1336px) and (max-width: 1919px){
+  .logo {
+    font-size: 2rem;
+  }
+  .phone{
+    font-size: 1.3rem;
+  }
+  .header-button,
+  .header-info{
+    font-size: 0.85rem;
+  }
+  .sign-in{
+    font-size: 0.7rem;
+  }
+  .header-name{
+    padding-right: 3rem;
+  }
+ .number{
+   padding-right: 1.5rem;
+ }
+}
+
+@media (min-width: 1024px) and (max-width: 1919px) {
+  .logo {
+    font-size: 1.4rem;
+  }
+  .phone{
+    font-size: 1.1rem;
+  }
+  .header-button,
+  .header-info{
+    font-size: 0.6rem;
+  }
+  .header-button {
+    padding: 0 2.5rem;
+    
+  }
+  .sign-in{
+    font-size: 0.55rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
   .header-name {
     display: none;
   }
@@ -83,4 +122,32 @@
     padding-left: 1rem;
     font-size: 1.4rem;
   }
+  
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  
+  .logo {
+    padding-left: 1rem;
+    font-size: 1rem;
+  }
+  .header-name {
+    display: none;
+  }
+  .wrapper-burger {
+    display: block;
+    margin: auto 0;
+  }
+}
+
+/* @media (min-width: 1024px) and (max-width: 1919px) {
+  
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+  
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  
+} */

@@ -82,7 +82,71 @@ xxl: 1400px */
   flex-basis: var(--column-width);
   max-width: var(--column-width);
 }
-
+@media screen and (min-width: 320px){
+  .container {
+    width: 295px;
+  }
+  .col-xsm-1 {
+    --column-width: calc(100% / var(--count-column) * 1);
+    flex-basis: var(--column-width);
+    max-width: var(--column-width);
+  }
+  .col-xsm-2 {
+    --column-width: calc(100% / var(--count-column) * 2);
+    flex-basis: var(--column-width);
+    max-width: var(--column-width);
+  }
+  .col-xsm-3 {
+    --column-width: calc(100% / var(--count-column) * 3);
+    flex-basis: var(--column-width);
+    max-width: var(--column-width);
+  }
+  .col-xsm-4 {
+    --column-width: calc(100% / var(--count-column) * 4);
+    flex-basis: var(--column-width);
+    max-width: var(--column-width);
+  }
+  .col-xsm-5 {
+    --column-width: calc(100% / var(--count-column) * 5);
+    flex-basis: var(--column-width);
+    max-width: var(--column-width);
+  }
+  .col-xsm-6 {
+    --column-width: calc(100% / var(--count-column) * 6);
+    flex-basis: var(--column-width);
+    max-width: var(--column-width);
+  }
+  .col-xsm-7 {
+    --column-width: calc(100% / var(--count-column) * 7);
+    flex-basis: var(--column-width);
+    max-width: var(--column-width);
+  }
+  .col-xsm-8 {
+    --column-width: calc(100% / var(--count-column) * 8);
+    flex-basis: var(--column-width);
+    max-width: var(--column-width);
+  }
+  .col-xsm-9 {
+    --column-width: calc(100% / var(--count-column) * 9);
+    flex-basis: var(--column-width);
+    max-width: var(--column-width);
+  }
+  .col-xsm-10 {
+    --column-width: calc(100% / var(--count-column) * 10);
+    flex-basis: var(--column-width);
+    max-width: var(--column-width);
+  }
+  .col-xsm-11 {
+    --column-width: calc(100% / var(--count-column) * 11);
+    flex-basis: var(--column-width);
+    max-width: var(--column-width);
+  }
+  .col-xsm-12 {
+    --column-width: calc(100% / var(--count-column) * 12);
+    flex-basis: var(--column-width);
+    max-width: var(--column-width);
+  }
+}
 @media screen and (min-width: 576px){
   .container {
     width: 540px;

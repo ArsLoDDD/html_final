@@ -1,6 +1,6 @@
-.reviews-container{
+/* .reviews-container{
     padding-bottom: 5rem;
-}
+} */
 .reviews-info {
   margin: 0 auto;
   text-align: center;
@@ -64,13 +64,29 @@
 .users-reviews>*{
     padding-left: 3rem;
 }
-@media (max-width: 320px) {
-  .reviews-heading{
+
+
+
+
+@media (min-width: 1024px) and (max-width: 1919px) {
+  
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+  
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+   .reviews-heading{
     font-size: 1.3rem;
   }
   .reviews-p {
+    max-width: 16rem;
+    margin: 0 auto;
     font-size: 0.8rem;
   padding-bottom: 1.5rem;
+  
+
   }
   .star{
     padding-bottom: 1rem;

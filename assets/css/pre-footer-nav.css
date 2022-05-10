@@ -1,0 +1,59 @@
+.reviews-button {
+  padding: 0.2rem 1.3rem;
+  border-radius: 2px;
+  background-color: var(--button-pre-footer-clr);
+}
+.reviews-button,
+button + button {
+  margin-left: 0.5rem;
+}
+.reviews-button:focus {
+  background-color: var(--elements-clr);
+}
+
+.button-list {
+  padding: 3rem 1rem 1.5rem;
+  text-align: center;
+  padding-bottom: 2.5rem;
+}
+.arrow-button {
+  display: none;
+  text-align: center;
+  padding-bottom: 2.5rem;
+}
+.arrow-button a + a {
+  padding-left: 1.5rem;
+}
+/* ---------MEDIA----------- */
+
+@media (min-width: 1336px) and (max-width: 1920px) {
+  .reviews-button {
+    padding: 0.38rem 3.4rem;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1335px) {
+  
+  .reviews-button {
+    padding: 0.31rem 2.5rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .reviews-button {
+    padding: 0.25rem 2.1rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .button-list {
+    display: flex;
+    padding-left: 0.4rem;
+    margin: 0 auto;
+  }
+  .reviews-button,
+  button + button {
+    margin-left: 0.3rem;
+  }
+  .arrow-button {
+    display: block;
+  }
+}
