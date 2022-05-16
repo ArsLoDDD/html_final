@@ -1,0 +1,94 @@
+.judge-img-wrapper > * {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+}
+.online-question-heading {
+  font-size: 3.1rem;
+  color: var(--elements-clr);
+}
+.online-question-p {
+  width: 50rem;
+  padding: 0;
+  margin: auto 0;
+  font-size: 1.4rem;
+  color: var(--dark-clr);
+}
+.img-online-question {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 6.1rem;
+  height: 6.1rem;
+  background-color: var(--elements-clr);
+  border: 5px solid white;
+  border-radius: 50%;
+  box-shadow: -10px -7px 53px 11px rgba(34, 60, 80, 0.24);
+}
+.online {
+  font-size: 0.8rem;
+  color: var(--white-clr);
+}
+.online-question-form {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.24rem;
+}
+
+.input-phone-online-question {
+  height: 4.6rem;
+  margin: 1rem 0;
+}
+.textarea-phone-online-question {
+  height: 10.75rem;
+  resize: none;
+}
+.input-phone-online-question,
+.textarea-phone-online-question {
+  padding-left: 1rem;
+  border: 0.15rem solid var(--border-forma-clr);
+  border-radius: 7px;
+  box-shadow: -10px -7px 53px -21px rgba(34, 60, 80, 0.24);
+  color: var(--input-text-clr);
+}
+.textarea-phone-online-question {
+  padding-top: 1rem;
+}
+.checkbox-box {
+  margin: 1rem 0;
+}
+.checkbox-question {
+  position: absolute;
+  opacity: 0;
+}
+.checkbox-question + label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.checkbox-question + label::before {
+  content: "";
+  display: inline-block;
+  width: 1.7rem;
+  height: 1.7rem;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid var(--elements-clr);
+  border-radius: 7px;
+  margin-right: 0.5em;
+}
+.checkbox-question:checked + label::before {
+  background-color: var(--elements-clr);
+}
+.label-online{
+    color: var(--input-text-clr)
+}
+.input-button-online {
+  width: 16.5rem;
+  height: 3.8rem;
+  border: 1px solid var(--elements-clr);
+  border-radius: 7px;
+  background-color: var(--elements-clr);
+  color: var(--white-clr);
+  box-shadow: 4px 2px 49px 12px rgba(34, 60, 80, 0.24);
+}

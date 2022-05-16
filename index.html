@@ -13,15 +13,18 @@
     <link rel="stylesheet" href="./assets/css/fonts.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/visible.css" />
     <link rel="stylesheet" href="./assets/css/header.css" />
     <link rel="stylesheet" href="./assets/css/footer.css" />
     <link rel="stylesheet" href="./assets/css/reviews.css" />
     <link rel="stylesheet" href="./assets/css/pre-footer-nav.css" />
+    <link rel="stylesheet" href="./assets/css/consultation.css" />
+    <link rel="stylesheet" href="./assets/css/online-question.css" />
   </head>
   <body>
     <div class="main-container">
       <header class="container header">
-        <div class="row">
+        <div class="row header-box">
           <a href="" class="col-xxxl-4 logo">Классика права</a>
           <div class="wrapper-burger">
             <img src="./images/icon/header-burger.png" alt="" />
@@ -48,13 +51,76 @@
       </header>
       <div class="nav-menu"></div>
 
-      <div class="online-question"></div>
+      <div class="container online-question row">
+        <div class="judge-img col-xxxl-5">
+          <div class="judge-img-wrapper">
+            <img src="./images/icon/judge-img.png" alt="" />
+          </div>
+        </div>
+        <div class="online-question-box col-xxxl-7">
+          <article class="online-question-article">
+            <h2 class="online-question-heading">
+              Задайте вопрос юристу онлайн
+            </h2>
+            <div class="row">
+              <p class="online-question-p">
+                Компания специализируется на оказании широкого спектра услуг как
+                для корпоративных клиентов так и для частных лиц.
+                Профессионализм и ответственность ключевые преимущества нашей
+                компании.
+              </p>
+              <div class="img-online-question">
+                <img src="./images/icon/ing-online-question.png" alt="" />
+                <p class="online">30 онлайн</p>
+              </div>
+            </div>
+            <form action="" method="post" class="online-question-form">
+              <input
+                type="number"
+                name="phone-number"
+                placeholder="Введите номер Вашего телефона"
+                class="input-phone-online-question"
+              />
+              <textarea
+                name="question"
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Введите Ваш вопрос... "
+                class="textarea-phone-online-question"
+              ></textarea>
+              <div class="checkbox-box">
+                <input type="checkbox" class="checkbox-question"/>
+                <label class="label-online">
+                  Нажимая кнопку “Отправить” вы соглашаетесь с политикой
+                  конфидециальности
+                </label>
+              </div>
+              <input type="button" value="Отправить вопрос" class="input-button-online"/>
+            </form>
+          </article>
+        </div>
+      </div>
 
       <div class="for-business"></div>
 
       <div class="our-advantages"></div>
 
-      <div class="consultation"></div>
+      <div class="consultation">
+        <div class="container lawyer-help-wrapper row">
+          <div class="lawyer-help">
+            <p><span> Юридическая помощь</span> начинается с консультации</p>
+            <ul></ul>
+            <li>
+              Заполните форму заявки , что бы получить первую бесплатную
+              консультацию по Вашей ситуации
+            </li>
+            <li>Наш менеджер свяжется с вами в ближайшее время</li>
+          </div>
+          <div class="phone-photo-wrapper"></div>
+          <div class="help-forma-wrapper"></div>
+        </div>
+      </div>
 
       <div class="reviews">
         <div class="container reviews-container">
@@ -66,49 +132,240 @@
             </p>
           </div>
           <div class="users-reviews-box row">
-            <section class="users-reviews col-sm-6">
-              <div class="user-stars">
-                <img src="./images/icon/Star.png" alt="" class="star" />
-                <img src="./images/icon/Star.png" alt="" class="star" />
-                <img src="./images/icon/Star.png" alt="" class="star" />
-                <img src="./images/icon/Star.png" alt="" class="star" />
-                <img src="./images/icon/Star.png" alt="" class="star" />
-              </div>
-              <div class="users-reviews-items">
-                <p>
-                  В результате действий команды юристов удалось взыскать
-                  задолженость в размере 7 045 515 гривен.
-                </p>
-                <div class="user-box-wrapper row">
-                  <div class="user-box row">
-                    <img src="./images/icon/user.png" alt="" />
-                    <div class="user-name row">
-                      <p>Алексей.К.В</p>
-                      <p>ООО “Энергон”</p>
+            <a href="" class="left-midl-arrow visible-sm visible-md">
+              <img src="./images/icon/arrow-left-sm-md.png" alt="" />
+            </a>
+            <a href="" class="right-midl-arrow visible-sm visible-md">
+              <img
+                class="visible-sm visible-md"
+                src="./images/icon/arrow-right-sm-md.png"
+                alt=""
+              />
+            </a>
+            <a href="" class="left-midl-arrow visible-xl">
+              <img src="./images/icon/arrow-left-xl.png" alt="" />
+            </a>
+            <a href="" class="right-midl-arrow visible-xl">
+              <img src="./images/icon/arrow-right-xl.png" alt="" />
+            </a>
+
+            <section class="container border-user-box col-xxl-6">
+              <div class="users-reviews">
+                <div class="user-stars row">
+                  <img
+                    src="./images/icon/Star.png"
+                    alt=""
+                    class="star visible-xl"
+                  />
+                  <img
+                    src="./images/icon/Star.png"
+                    alt=""
+                    class="star visible-xl"
+                  />
+                  <img
+                    src="./images/icon/Star.png"
+                    alt=""
+                    class="star visible-xl"
+                  />
+                  <img
+                    src="./images/icon/Star.png"
+                    alt=""
+                    class="star visible-xl"
+                  />
+                  <img
+                    src="./images/icon/Star.png"
+                    alt=""
+                    class="star visible-xl"
+                  />
+                  <img
+                    src="./images/icon/star-xsm-sm-md.png"
+                    alt=""
+                    class="star visible-xsm visible-sm visible-md"
+                  />
+                  <img
+                    src="./images/icon/star-xsm-sm-md.png"
+                    alt=""
+                    class="star visible-xsm visible-sm visible-md"
+                  />
+                  <img
+                    src="./images/icon/star-xsm-sm-md.png"
+                    alt=""
+                    class="star visible-xsm visible-sm visible-md"
+                  />
+                  <img
+                    src="./images/icon/star-xsm-sm-md.png"
+                    alt=""
+                    class="star visible-xsm visible-sm visible-md"
+                  />
+                  <img
+                    src="./images/icon/star-xsm-sm-md.png"
+                    alt=""
+                    class="star visible-xsm visible-sm visible-md"
+                  />
+                  <img
+                    src="./images/icon/star-lg.png"
+                    alt=""
+                    class="star visible-lg"
+                  />
+                  <img
+                    src="./images/icon/star-lg.png"
+                    alt=""
+                    class="star visible-lg"
+                  />
+                  <img
+                    src="./images/icon/star-lg.png"
+                    alt=""
+                    class="star visible-lg"
+                  />
+                  <img
+                    src="./images/icon/star-lg.png"
+                    alt=""
+                    class="star visible-lg"
+                  />
+                  <img
+                    src="./images/icon/star-lg.png"
+                    alt=""
+                    class="star visible-lg"
+                  />
+                </div>
+                <div class="users-reviews-items">
+                  <p>
+                    В результате действий команды юристов удалось взыскать
+                    задолженость в размере 7 045 515 гривен.
+                  </p>
+                  <div class="user-box-wrapper row">
+                    <div class="user-box row">
+                      <img
+                        class="visible-xl"
+                        src="./images/icon/user.png"
+                        alt=""
+                      />
+                      <img
+                        class="visible-lg"
+                        src="./images/icon/user-lg.png"
+                        alt=""
+                      />
+                      <img
+                        class="visible-xsm visible-sm visible-md"
+                        src="./images/icon/user-xsm-sm-md.png"
+                        alt=""
+                      />
+                      <div class="user-name row">
+                        <p>Алексей.К.В</p>
+                        <p>ООО “Энергон”</p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </section>
-            <section class="users-reviews col-sm-6 clone-user-box">
-              <div class="user-stars">
-                <img src="./images/icon/Star.png" alt="" class="star" />
-                <img src="./images/icon/Star.png" alt="" class="star" />
-                <img src="./images/icon/Star.png" alt="" class="star" />
-                <img src="./images/icon/Star.png" alt="" class="star" />
-                <img src="./images/icon/Star.png" alt="" class="star" />
-              </div>
-              <div class="users-reviews-items">
-                <p>
-                  В результате действий команды юристов удалось взыскать
-                  задолженость в размере 7 045 515 гривен.
-                </p>
-                <div class="user-box-wrapper row">
-                  <div class="user-box row">
-                    <img src="./images/icon/user.png" alt="" />
-                    <div class="user-name row">
-                      <p>Алексей.К.В</p>
-                      <p>ООО “Энергон”</p>
+            <section
+              class="container col-xxl-6 border-user-box clone-user-box nvisible-xsm"
+            >
+              <div class="users-reviews">
+                <div class="user-stars row">
+                  <img
+                    src="./images/icon/Star.png"
+                    alt=""
+                    class="star visible-xl"
+                  />
+                  <img
+                    src="./images/icon/Star.png"
+                    alt=""
+                    class="star visible-xl"
+                  />
+                  <img
+                    src="./images/icon/Star.png"
+                    alt=""
+                    class="star visible-xl"
+                  />
+                  <img
+                    src="./images/icon/Star.png"
+                    alt=""
+                    class="star visible-xl"
+                  />
+                  <img
+                    src="./images/icon/Star.png"
+                    alt=""
+                    class="star visible-xl"
+                  />
+                  <img
+                    src="./images/icon/star-xsm-sm-md.png"
+                    alt=""
+                    class="star visible-xsm visible-sm visible-md"
+                  />
+                  <img
+                    src="./images/icon/star-xsm-sm-md.png"
+                    alt=""
+                    class="star visible-xsm visible-sm visible-md"
+                  />
+                  <img
+                    src="./images/icon/star-xsm-sm-md.png"
+                    alt=""
+                    class="star visible-xsm visible-sm visible-md"
+                  />
+                  <img
+                    src="./images/icon/star-xsm-sm-md.png"
+                    alt=""
+                    class="star visible-xsm visible-sm visible-md"
+                  />
+                  <img
+                    src="./images/icon/star-xsm-sm-md.png"
+                    alt=""
+                    class="star visible-xsm visible-sm visible-md"
+                  />
+                  <img
+                    src="./images/icon/star-lg.png"
+                    alt=""
+                    class="star visible-lg"
+                  />
+                  <img
+                    src="./images/icon/star-lg.png"
+                    alt=""
+                    class="star visible-lg"
+                  />
+                  <img
+                    src="./images/icon/star-lg.png"
+                    alt=""
+                    class="star visible-lg"
+                  />
+                  <img
+                    src="./images/icon/star-lg.png"
+                    alt=""
+                    class="star visible-lg"
+                  />
+                  <img
+                    src="./images/icon/star-lg.png"
+                    alt=""
+                    class="star visible-lg"
+                  />
+                </div>
+                <div class="users-reviews-items">
+                  <p>
+                    В результате действий команды юристов удалось взыскать
+                    задолженость в размере 7 045 515 гривен.
+                  </p>
+                  <div class="user-box-wrapper row">
+                    <div class="user-box row">
+                      <img
+                        class="visible-xl"
+                        src="./images/icon/user.png"
+                        alt=""
+                      />
+                      <img
+                        class="visible-lg"
+                        src="./images/icon/user-lg.png"
+                        alt=""
+                      />
+                      <img
+                        class="visible-xsm visible-sm visible-md"
+                        src="./images/icon/user-xsm-sm-md.png"
+                        alt=""
+                      />
+                      <div class="user-name row">
+                        <p>Алексей.К.В</p>
+                        <p>ООО “Энергон”</p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -119,7 +376,7 @@
       </div>
 
       <div class="container pre-footer-nav">
-        <div class="container button-list ">
+        <div class="container button-list">
           <button class="reviews-button"></button
           ><button class="reviews-button"></button
           ><button class="reviews-button"></button
@@ -129,10 +386,10 @@
         </div>
         <div class="arrow-button">
           <a href="">
-            <img src="./images/icon/arrow-left.png" alt="">
-
-        </a>
-        <a href=""><img src="./images/icon/arrow-right.png" alt=""></a></div>
+            <img src="./images/icon/arrow-left.png" alt="" />
+          </a>
+          <a href=""><img src="./images/icon/arrow-right.png" alt="" /></a>
+        </div>
       </div>
 
       <footer>

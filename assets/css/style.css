@@ -7,6 +7,9 @@
     --gray-clr:#9D9D9D;
     --white-clr: #FFFFFF;
     --button-pre-footer-clr: #E8E2D5;
+    --border-forma-clr:#CCCCCC;
+    --input-text-clr:#C2C2C2;
+    --checkbox-text-clr:#A3A3A3;
     font-size: 16px;
 }
 body{
