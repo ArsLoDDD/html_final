@@ -1,0 +1,118 @@
+.services-heading{
+    font-size: 3.1rem;
+    padding-bottom: 3.4rem;
+    padding-top: 5.1rem;
+    color: var(--elements-clr)
+}
+.services-p{
+    max-width: 83rem;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    padding-bottom: 6rem;
+    color: var(--dark-clr)
+
+}
+.services-p,
+.services-heading{
+    text-align: center;
+}
+.services-cards-box {
+  height: 41rem;
+  justify-content: space-around;
+}
+.services-card-wrapper {
+  width: 27%;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  padding: 0;
+  position: relative;
+  text-align: left;
+  color: var(--white-clr);
+  /* border: red 1px solid */
+}
+.services-card-wrapper>p,
+.services-card-wrapper>h3{
+    margin-left: 1rem;
+}
+.services-card-wrapper>p{
+    max-width: 90%;
+}
+.third-child>p,
+.third-child>h3{
+    margin-left: 4.5rem;
+}
+.third-child>*{
+margin-left: 13%;
+}
+
+
+.services-card-wrapper>a{
+    text-align: center;
+    
+}
+.first-child-a{
+    margin-right: 13%;
+}
+.third-child-a{
+
+    margin: 0 35%;
+}
+.services-card-wrapper > *:not(:first-child) {
+  /* padding-left: 1.5rem; */
+  padding-bottom: 1.5rem;
+  z-index: 1000;
+}
+.services-card-wrapper > img {
+  position: absolute;
+  border-radius: 0.7rem;
+}
+.img-card-service-2 {
+  height: 100%;
+}
+.img-card-service-1,
+.img-card-service-3 {
+  height: 89%;
+  width: 87%;
+}
+.img-card-service-1,
+.img-card-service-3,
+.img-card-service-2 {
+  object-fit: cover;
+}
+
+.img-card-service .services-heading {
+  font-size: 3.1rem;
+}
+.services-p {
+  font-size: 1.6rem;
+}
+.h-card {
+  font-size: 2.3rem;
+}
+.services-card-wrapper>.midl{
+    height: 100%;
+    width: 100%;
+}
+.third-child-gradietn{
+    margin-left: auto;
+}
+.gradient {
+  margin-top: auto;
+  width: 87%;
+  height: 89%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  border-radius: 0.7rem;
+  background-image: linear-gradient(
+      180deg,
+      #414141 -15.76%,
+      rgba(65, 65, 65, 0) 115.22%
+    ),
+    linear-gradient(359.99deg, #65c466 0.01%, rgba(37, 137, 249, 0) 30.83%);
+  opacity: 0.7;
+}

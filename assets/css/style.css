@@ -11,7 +11,13 @@
     --input-text-clr:#C2C2C2;
     --checkbox-text-clr:#A3A3A3;
     font-size: 16px;
+    
 }
 body{
     background-color: var(--main-bg-clr);
+    
 }
+body {
+    min-width: 320px;
+    max-width: 1920px;
+  }
